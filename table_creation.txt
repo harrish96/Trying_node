@@ -1,0 +1,8 @@
+//db.run("CREATE TABLE item(item_name varchar(10) primary key,price integer,category varchar(10)");
+//db.run("CREATE table tab(tab_id varchar(2) primary key,occ integer,AC varchar(5))");
+//db.run("CREATE TABLE waiter(table_id varchar(2),name varchar(30),experience integer,address varchar(30),foreign key(table_id) references tab(table_id))");
+//db.run("CREATE TABLE customer(id varchar(10) primary key,name varchar(30),contact_no varchar(15),date text)");
+//db.run("CREATE TABLE chef(chef_id varchar(10),chef_name varchar(30),experience integer,address varchar(30))");
+//db.run("CREATE TABLE orde(customer_id varchar(10) primary key,total real,foreign key(customer_id) references customer(id))");
+//db.run("CREATE TABLE orde_items(item_name varchar(10),price integer,foreign key(item_name) references item(item_name))");
+//db.run("CREATE TABLE prep(chef_id varchar(10),order_id varchar(10),foreign key(chef_id) references chef(chef_id),foreign key(order_id) references orde(customer_id))");

@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Customer</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="generate.js"></script>
+</head>
+<form action="http://127.0.0.1:8080/order" method='post'>
+<div>Entering order contents...</div>
+<label for="id">Date</label>
+<input id="name" name="id" placeholder="Enter the order id:"></input><br><br>
+<label for="no">Ordered Items</label>
+<input id="list" name="no" placeholder="Enter the no of items:"></input><br><br>
+<label for="name"></label>
+<div id="list1">
+</div>
+<button onClick='generate()'>Button</button>
+<button type="submit">GO</button>
+</form>
+
+</html>

@@ -1,0 +1,4 @@
+//customer-data stmt.run("c224","random_idiot","9553849753","2016-04-24");
+//item-data stmt.run("dosa",30,"food");
+//table-data stmt.run("2",6,"NAC");
+//waiter-data stmt.run("1","waiter1",4,"412 Annagar Road");
